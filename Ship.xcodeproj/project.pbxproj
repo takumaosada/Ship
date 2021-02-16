@@ -13,7 +13,6 @@
 		C755D612225C6EAC005B0CEF /* RequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C755D608225C6EAC005B0CEF /* RequestMock.swift */; };
 		C755D613225C6EAC005B0CEF /* DependencyMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C755D609225C6EAC005B0CEF /* DependencyMock.swift */; };
 		C78C860D2270000900B14BB1 /* AnyBasePathComponentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78C860C2270000900B14BB1 /* AnyBasePathComponentTest.swift */; };
-		C7B219DE2289176900B0579D /* Ship.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FDA03E226DB6770092F224 /* Ship.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7D02307225CC4C800B76B20 /* APIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C755D5F9225C67B6005B0CEF /* APIKit.framework */; };
 		C7D0230C225CC4DE00B76B20 /* APIKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = C755D5F9225C67B6005B0CEF /* APIKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C7D02312225CD4D900B76B20 /* DependencyTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D0230E225CD4D900B76B20 /* DependencyTest.swift */; };
@@ -75,7 +74,6 @@
 		C7FDA038226DB6760092F224 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7FDA03A226DB6760092F224 /* RequestProxyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProxyProtocol.swift; sourceTree = "<group>"; };
 		C7FDA03D226DB6770092F224 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		C7FDA03E226DB6770092F224 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
 		C7FDA04C226DC54F0092F224 /* Ship.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Ship.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,7 +129,6 @@
 				C7FDA037226DB6760092F224 /* RequestProxy.swift */,
 				C7FDA03A226DB6760092F224 /* RequestProxyProtocol.swift */,
 				C7FDA033226DB6760092F224 /* Session.swift */,
-				C7FDA03E226DB6770092F224 /* Ship.h */,
 			);
 			path = Ship;
 			sourceTree = "<group>";
@@ -192,7 +189,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B219DE2289176900B0579D /* Ship.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
